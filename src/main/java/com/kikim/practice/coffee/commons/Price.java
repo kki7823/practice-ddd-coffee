@@ -11,7 +11,7 @@ public class Price {
         return value;
     }
 
-    public Price multipy(int multiplier) {
+    public Price multiply(int multiplier) {
         return new Price(value * multiplier);
     }
 
